@@ -1,0 +1,75 @@
+14:47:05.968 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_351 on 汤包 with PID 13684 (C:\Users\徐可心\Desktop\S1211-设计\项目源码\book-service\ruoyi-admin\target\classes started by 徐可心 in C:\Users\徐可心\Desktop\S1211-设计\项目源码)
+14:47:05.968 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+14:47:05.973 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+14:47:08.521 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+14:47:08.522 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14:47:08.522 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:47:08.525 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+14:47:08.535 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:47:08.535 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:47:08.535 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+14:47:08.631 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:47:10.999 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+14:47:15.482 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:47:15.867 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,61] - Started RuoYiApplication in 10.293 seconds (JVM running for 11.739)
+14:48:52.791 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:48:52.791 [http-nio-8080-exec-5] INFO  o.s.w.s.DispatcherServlet - [initServletBean,525] - Initializing Servlet 'dispatcherServlet'
+14:48:52.795 [http-nio-8080-exec-5] INFO  o.s.w.s.DispatcherServlet - [initServletBean,547] - Completed initialization in 4 ms
+14:49:08.202 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+15:11:59.068 [lettuce-eventExecutorLoop-1-10] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /1.12.233.30:6379
+15:11:59.191 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 1.12.233.30:6379
+15:12:22.890 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[test09][Register][注册成功]
+15:12:31.401 [schedule-pool-2] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[test09][Success][登录成功]
+15:12:36.748 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:36.791 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:37.099 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 100 in 346ms
+15:12:37.100 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.043478260869565216 / 0.6131471927654585 / 1.0
+15:12:37.141 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:37.791 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 101 in 691ms
+15:12:37.792 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.75 / 0.04257246376811594 / 0.8065735963827292 / 1.0
+15:12:37.816 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:37.841 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:37.866 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:38.384 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 107 in 542ms
+15:12:38.384 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.6666666666666666 / 0.0428743961352657 / 0.7420981285103057 / 1.0
+15:12:38.409 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:38.437 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:38.464 [http-nio-8080-exec-60] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:40.626 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:40.655 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:40.867 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 100 in 241ms
+15:12:40.867 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.043478260869565216 / 0.6131471927654585 / 1.0
+15:12:40.896 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:41.467 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 101 in 600ms
+15:12:41.467 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.75 / 0.04257246376811594 / 0.8065735963827292 / 1.0
+15:12:41.497 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:41.533 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:41.575 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:42.067 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 107 in 534ms
+15:12:42.068 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.6666666666666666 / 0.0428743961352657 / 0.7420981285103057 / 1.0
+15:12:42.123 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+15:12:42.151 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:12:42.177 [http-nio-8080-exec-39] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:22:41.874 [lettuce-eventExecutorLoop-1-11] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /1.12.233.30:6379
+15:22:42.019 [lettuce-nioEventLoop-4-3] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 1.12.233.30:6379
+15:22:42.139 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[test09][Logout][退出成功]
+15:22:51.458 [schedule-pool-3] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[test09][Success][登录成功]
+15:23:07.692 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:23:07.727 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:07.948 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 100 in 255ms
+15:23:07.948 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.043478260869565216 / 0.6131471927654585 / 1.0
+15:23:07.980 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:08.539 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 101 in 590ms
+15:23:08.539 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.75 / 0.04257246376811594 / 0.8065735963827292 / 1.0
+15:23:08.569 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:08.600 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:23:08.629 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:09.154 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 107 in 554ms
+15:23:09.155 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.6666666666666666 / 0.0428743961352657 / 0.7420981285103057 / 1.0
+15:23:09.185 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+15:23:09.213 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:09.241 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 10 users
+15:23:09.271 [http-nio-8080-exec-44] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+16:03:17.765 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+16:03:17.773 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2051] - {dataSource-1} closing ...
+16:03:17.776 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2124] - {dataSource-1} closed

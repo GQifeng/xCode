@@ -1,0 +1,67 @@
+18:46:38.848 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_352 on LAPTOP-OKT9CSHA with PID 37440 (C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\book-service\ruoyi-admin\target\classes started by drake in C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码)
+18:46:38.851 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+18:46:38.853 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+18:46:45.486 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:46:45.487 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:46:45.488 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+18:46:45.550 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:46:49.107 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+18:46:52.308 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2051] - {dataSource-1} closing ...
+18:46:52.321 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2124] - {dataSource-1} closed
+18:46:52.508 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+19:18:41.455 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+19:18:41.459 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_352 on LAPTOP-OKT9CSHA with PID 31452 (C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\book-service\ruoyi-admin\target\classes started by drake in C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码)
+19:18:41.461 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+19:18:44.942 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:18:44.943 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:18:44.943 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+19:18:45.010 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:18:48.072 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+19:18:51.199 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2051] - {dataSource-1} closing ...
+19:18:51.209 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2124] - {dataSource-1} closed
+19:18:51.389 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+20:10:52.151 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+20:10:52.156 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_352 on LAPTOP-OKT9CSHA with PID 4056 (C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\book-service\ruoyi-admin\target\classes started by drake in C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码)
+20:10:52.158 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+20:10:55.772 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+20:10:55.773 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:10:55.773 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+20:10:55.840 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:10:59.347 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+20:11:03.660 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+20:11:04.148 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,61] - Started RuoYiApplication in 12.487 seconds (JVM running for 13.126)
+20:12:04.533 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:12:04.534 [http-nio-8080-exec-6] INFO  o.s.w.s.DispatcherServlet - [initServletBean,525] - Initializing Servlet 'dispatcherServlet'
+20:12:04.537 [http-nio-8080-exec-6] INFO  o.s.w.s.DispatcherServlet - [initServletBean,547] - Completed initialization in 3 ms
+20:12:08.241 [http-nio-8080-exec-14] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1744463126,1745091066] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20:14:48.675 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[Java1234][Success][登录成功]
+20:15:01.520 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Logout][退出成功]
+20:15:12.511 [schedule-pool-2] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[Java1234][Success][登录成功]
+20:20:15.857 [lettuce-eventExecutorLoop-1-14] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /1.12.233.30:6379
+20:20:15.895 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 1.12.233.30:6379
+20:20:22.089 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+20:44:42.093 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+20:44:42.099 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2051] - {dataSource-1} closing ...
+20:44:42.101 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2124] - {dataSource-1} closed
+21:17:35.469 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_352 on LAPTOP-OKT9CSHA with PID 47140 (C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\book-service\ruoyi-admin\target\classes started by drake in C:\Users\drake\Desktop\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码)
+21:17:35.471 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+21:17:35.472 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+21:17:39.323 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+21:17:39.324 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:17:39.324 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+21:17:39.436 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:17:43.046 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+21:17:47.611 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+21:17:48.063 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,61] - Started RuoYiApplication in 13.051 seconds (JVM running for 13.732)
+21:37:56.855 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:37:56.855 [http-nio-8080-exec-4] INFO  o.s.w.s.DispatcherServlet - [initServletBean,525] - Initializing Servlet 'dispatcherServlet'
+21:37:56.858 [http-nio-8080-exec-4] INFO  o.s.w.s.DispatcherServlet - [initServletBean,547] - Completed initialization in 3 ms
+21:38:16.334 [lettuce-eventExecutorLoop-1-18] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /1.12.233.30:6379
+21:38:16.372 [lettuce-nioEventLoop-4-2] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 1.12.233.30:6379
+21:38:16.904 [http-nio-8080-exec-6] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1744463126,1745091066;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+21:39:11.191 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+21:40:28.939 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+21:40:28.964 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2051] - {dataSource-1} closing ...
+21:40:28.970 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2124] - {dataSource-1} closed

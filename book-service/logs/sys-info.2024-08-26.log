@@ -1,0 +1,37 @@
+09:40:09.207 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,55] - Starting RuoYiApplication using Java 1.8.0_412 on LAPTOP-JH5R5CHM with PID 18268 (D:\Desktop\springboot源码库\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\shop-service\ruoyi-admin\target\classes started by 老莫 in D:\Desktop\springboot源码库\Java协同过滤推荐算法的SpringBoot+Vue(图书)商城系统\项目源码\shop-service)
+09:40:09.210 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+09:40:09.214 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+09:40:11.933 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:40:11.934 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:40:11.935 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+09:40:12.095 [restartedMain] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:40:15.223 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,972] - {dataSource-1} inited
+09:40:19.378 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:40:19.781 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,61] - Started RuoYiApplication in 11.013 seconds (JVM running for 13.236)
+09:40:26.463 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/ruoyi-vue-service] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:40:26.466 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,525] - Initializing Servlet 'dispatcherServlet'
+09:40:26.470 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,547] - Completed initialization in 3 ms
+09:41:12.272 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Error][密码输入错误1次]
+09:41:12.272 [schedule-pool-2] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Error][用户不存在/密码错误]
+09:42:10.719 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+09:52:58.870 [schedule-pool-2] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Logout][退出成功]
+09:57:09.297 [schedule-pool-3] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[zhangsan][Register][注册成功]
+09:57:22.746 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[zhangsan][Success][登录成功]
+09:57:27.658 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+09:57:27.700 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:57:27.976 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 100 in 314ms
+09:57:27.976 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.043478260869565216 / 0.6131471927654585 / 1.0
+09:57:28.009 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:57:28.564 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 101 in 587ms
+09:57:28.565 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.75 / 0.04257246376811594 / 0.8065735963827292 / 1.0
+09:57:28.590 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:57:28.616 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+09:57:28.639 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:57:29.093 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,206] - Evaluated with user 107 in 477ms
+09:57:29.093 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.e.GenericRecommenderIRStatsEvaluator - [evaluate,207] - Precision/recall/fall-out/nDCG/reach: 0.5 / 0.6666666666666666 / 0.0428743961352657 / 0.7420981285103057 / 1.0
+09:57:29.117 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 8 users
+09:57:29.139 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:57:29.161 [http-nio-8080-exec-68] INFO  o.a.m.c.t.i.m.GenericDataModel - [<init>,113] - Processed 9 users
+09:58:40.381 [schedule-pool-5] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[zhangsan][Logout][退出成功]
+09:58:55.316 [schedule-pool-3] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+10:06:29.005 [schedule-pool-6] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Logout][退出成功]

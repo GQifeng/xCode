@@ -1,0 +1,7 @@
+20:14:48.675 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[Java1234][Success][登录成功]
+20:15:01.520 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Logout][退出成功]
+20:15:12.511 [schedule-pool-2] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[Java1234][Success][登录成功]
+20:20:22.089 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+20:44:42.093 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+21:39:11.191 [schedule-pool-1] INFO  sys-user - [run,52] - [127.0.0.1]内网IP[java1234][Success][登录成功]
+21:40:28.939 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====

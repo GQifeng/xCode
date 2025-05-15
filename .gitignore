@@ -1,0 +1,5 @@
+# 项目排除路径
+/book-service/ruoyi-admin/target/
+/book-service/ruoyi-common/target/
+/book-service/ruoyi-framework/target/
+/book-service/ruoyi-system/target/

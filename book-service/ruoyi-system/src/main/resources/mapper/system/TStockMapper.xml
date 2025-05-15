@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.TStockMapper">
+
+    <sql id="querySql">
+        select <include refid="allField"/>
+        from t_stock A
+        <include refid="search"/>
+    </sql>
+
+    <select id="queryList" resultType="com.ruoyi.system.vo.TStockVo">
+        select <include refid="allField"/>,p.product_name as tableName
+        from t_stock A
+        left join t_product p on A.table_id = p.id
+        <if test="entity.tableName != null and entity.tableName != ''"> and p.product_name like concat('%',#{entity.tableName},'%')</if>
+        <if test="entity.tableId != null and entity.tableId != 0">
+            and A.table_id = #{entity.tableId}
+        </if>
+        <if test="entity.type != null and entity.type != ''">
+            and A.type like concat('%', #{entity.type}, '%')
+        </if>
+        <if test="entity.num != null and entity.num != 0">
+            and A.num = #{entity.num}
+        </if>
+        order by A.create_time desc
+    </select>
+
+    <select id="queryById" resultType="com.ruoyi.system.vo.TStockVo">
+        <include refid="querySql"/>
+        and A.id = #{id}
+    </select>
+
+    <sql id="allField">
+        A.id,
+        A.table_id,
+        A.type,
+        A.num,
+        A.create_time,
+        A.update_time,
+        A.create_by,
+        A.update_by
+    </sql>
+
+    <sql id="search">
+        where 1 = 1
+    </sql>
+</mapper>

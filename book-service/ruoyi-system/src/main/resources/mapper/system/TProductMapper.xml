@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.TProductMapper">
+
+    <sql id="querySql">
+        select <include refid="allField"/>
+        from t_product A
+        <include refid="search"/>
+    </sql>
+
+    <select id="queryList" resultType="com.ruoyi.system.vo.TProductVo">
+        select <include refid="allField"/>,t.type_name,IFNULL(tabs.salesNum,0) as salesNum
+        from t_product A
+        left join t_type t on A.type_id = t.id
+        left join (SELECT table_id,sum(num) as salesNum FROM `t_shopping_cart` where `status` = '0' group by table_id) tabs on tabs.table_id = A.id
+        <where>
+         <if test="entity.typeId != null and entity.typeId != 0">
+            and A.type_id = #{entity.typeId}
+        </if>
+        <if test="entity.productName != null and entity.productName != ''">
+            and A.product_name like concat('%', #{entity.productName}, '%')
+        </if>
+        <if test="entity.productImg != null and entity.productImg != ''">
+            and A.product_img like concat('%', #{entity.productImg}, '%')
+        </if>
+        <if test="entity.productDetails != null and entity.productDetails != ''">
+            and A.product_details like concat('%', #{entity.productDetails}, '%')
+        </if>
+        <if test="entity.productNum != null and entity.productNum != 0">
+            and A.product_num = #{entity.productNum}
+        </if>
+        <if test="entity.ids!=null and entity.ids!=''">
+            and find_in_set(A.id,#{entity.ids})
+        </if>
+</where>
+        order by A.create_time desc
+    </select>
+
+    <select id="queryById" resultType="com.ruoyi.system.vo.TProductVo">
+        <include refid="querySql"/>
+        and A.id = #{id}
+    </select>
+
+    <sql id="allField">
+        A.id,
+        A.type_id,
+        A.product_name,
+        A.product_img,
+        A.product_details,
+        A.product_num,
+        A.create_time,
+        A.create_by,
+        A.update_time,
+        A.update_by,
+        A.price
+    </sql>
+
+    <sql id="search">
+        where 1 = 1
+    </sql>
+</mapper>

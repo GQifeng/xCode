@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.TShoppingCartMapper">
+
+    <sql id="querySql">
+        select <include refid="allField"/>
+        from t_shopping_cart A
+        left join t_product p on A.table_id = p.id
+        <include refid="search"/>
+    </sql>
+
+    <select id="queryList" resultType="com.ruoyi.system.vo.TShoppingCartVo">
+        <include refid="querySql"/>
+        <if test="entity.productName!=null and entity.productName!=''">and p.product_name like concat('%',#{entity.productName},'%')</if>
+        <if test="entity.userId != null and entity.userId != 0">
+            and A.user_id = #{entity.userId}
+        </if>
+        <if test="entity.tableId != null and entity.tableId != 0">
+            and A.table_id = #{entity.tableId}
+        </if>
+        <if test="entity.num != null and entity.num != 0">
+            and A.num = #{entity.num}
+        </if>
+        <if test="entity.price != null and entity.price != 0">
+            and A.price = #{entity.price}
+        </if>
+        <if test="entity.status!=null and entity.status!=''"> and A.status = #{entity.status}</if>
+        order by A.create_time desc
+    </select>
+
+    <select id="queryById" resultType="com.ruoyi.system.vo.TShoppingCartVo">
+        <include refid="querySql"/>
+        and A.id = #{id}
+    </select>
+
+    <sql id="allField">
+        A.id,
+        A.user_id,
+        A.table_id,
+        A.num,
+        A.price,
+        A.create_time,
+        A.create_by,
+        A.update_time,
+        A.update_by,p.product_name,p.product_img
+    </sql>
+
+    <sql id="search">
+        where 1 = 1
+    </sql>
+</mapper>
